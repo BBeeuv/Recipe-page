@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+     
+     <!--   navigation -->
+     <nav class="navigation">
+        <div class="menu-container">
+           <ul>
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="recipe.html">Recipes</a></li>
+            <li class=""><a href="search.html">Search</a></li>
+            <li class=""><a href="AboutUs.html">About us</a></li>
+        </ul>   
+        </div>
+      
+      <div class="hamburger-menu">
+        <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+	<path d="M0 0h16v16H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" />
+</svg>
+
+</span>
+      </div>
+     </nav>
+
+     <div class="mobile-menu">
+        <ul>
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="recipe.html">Recipes</a></li>
+            <li class=""><a href="search.html">Search</a></li>
+            <li class=""><a href="AboutUs.html">About us</a></li>
+        </ul>  
+     </div>
+
+     <!-- Hero -->
+      <div class="hero">
+       <div class="hero-container">
+        <div class="hero-text">
+            <h6>#1 Bender's most shiny recipe</h6>
+            <h4>Boozy brown</h4>
+            <h4>Lentil soup</h4>
+            <h6>40% healthy</h6>
+        </div>
+        
+        <div class="hero-search">
+            <div class="search-box">
+                <span class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	                <path d="M0 0h24v24H0z" fill="none" />
+	                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 15l6 6m-11-4a7 7 0 1 1 0-14a7 7 0 0 1 0 14" />
+                    </svg>
+
+                </span>
+             <input type="text" placeholder="Search" class="search-input">
+            </div>
+        </div>
+
+
+
+
+       </div>
+      </div>
+      <!-- Today's recipe -->
+      <section class="todays_recipes">
+
+        <div class="todays_recipes_headline">Today's Recipe</div>
+        <div class="todays_recipes_content">
+            <!-- card block start (copy me)-->
+            <div class="todays_recipes_content_block">
+                <div class="todays_recipes_content_block_image">
+                   <img src="https://picsum.photos/300/175" alt="">
+                 </div>
+                  <div class="todays_recipes_content_block_text">
+                     <h5>Crap’tacular</h5>
+                     <p>food is good food is life</p>
+                  </div>
+                  <div class="todays_recipes_content_block_text_bottom">
+                    <div data-category="seafood" class="todays_recipes_content_bottom_area">
+                        <div class="todays_recipes_content_bottom_area_left">
+                            <p data-category="seafood" id="category-color">Seafood</p>
+                            <p>Recipe</p>
+                        </div>
+                        <div class="todays_recipes_content_bottom_area_right">
+                            <div class="todays_recipes_content_bottom_area_right_button">
+                                <button>
+                                    <a href="">How to</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card block stop (copy me also)-->
+
+            <!-- card block start (copy me)-->
+            <div class="todays_recipes_content_block">
+                <div class="todays_recipes_content_block_image">
+                   <img src="https://picsum.photos/300/175" alt="">
+                 </div>
+                  <div class="todays_recipes_content_block_text">
+                     <h5>Chick’tastic</h5>
+                     <p>food is good food is life</p>
+                  </div>
+                  <div class="todays_recipes_content_block_text_bottom">
+                    <div data-category="seafood" class="todays_recipes_content_bottom_area">
+                        <div class="todays_recipes_content_bottom_area_left">
+                            <p data-category="chicken" id="category-color">Chicken</p>
+                            <p>Recipe</p>
+                        </div>
+                        <div class="todays_recipes_content_bottom_area_right">
+                            <div class="todays_recipes_content_bottom_area_right_button">
+                                <button>
+                                    <a href="">How to</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card block stop (copy me also)-->
+
+            <!-- card block start (copy me)-->
+            <div class="todays_recipes_content_block">
+                <div class="todays_recipes_content_block_image">
+                   <img src="https://picsum.photos/300/175" alt="">
+                 </div>
+                  <div class="todays_recipes_content_block_text">
+                     <h5>Dessert’a’licous</h5>
+                     <p>food is good food is life</p>
+                  </div>
+                  <div class="todays_recipes_content_block_text_bottom">
+                    <div data-category="seafood" class="todays_recipes_content_bottom_area">
+                        <div class="todays_recipes_content_bottom_area_left">
+                            <p data-category="dessert" id="category-color">Dessert</p>
+                            <p>Recipe</p>
+                        </div>
+                        <div class="todays_recipes_content_bottom_area_right">
+                            <div class="todays_recipes_content_bottom_area_right_button">
+                                <button>
+                                    <a href="">How to</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card block stop (copy me also)-->
+
+            <!-- card block start (copy me)-->
+            <div class="todays_recipes_content_block">
+                <div class="todays_recipes_content_block_image">
+                   <img src="https://picsum.photos/300/175" alt="">
+                 </div>
+                  <div class="todays_recipes_content_block_text">
+                     <h5>spicy meat’a’bowl</h5>
+                     <p>food is good food is life</p>
+                  </div>
+                  <div class="todays_recipes_content_block_text_bottom">
+                    <div data-category="seafood" class="todays_recipes_content_bottom_area">
+                        <div class="todays_recipes_content_bottom_area_left">
+                            <p data-category="BEEF/PORK" id="category-color">Meat</p>
+                            <p>Recipe</p>
+                        </div>
+                        <div class="todays_recipes_content_bottom_area_right">
+                            <div class="todays_recipes_content_bottom_area_right_button">
+                                <button>
+                                    <a href="">How to</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card block stop (copy me also)-->
+
+
+
+
+        </div>
+
+
+
+      </section>
+      <!-- Categories -->
+      <section class="categories">
+         <div class="todays_recipes_headline">Categories</div>
+          
+         <div class="categories_content">
+            <div class="categories_content_block">
+                <span data-category="seafood" class="iconify">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36">
+	               <path d="M0 0h36v36H0z" fill="none" />
+	               <circle cx="11.49" cy="17.5" r="1.5" fill="currentColor" class="clr-i-outline clr-i-outline-path-1" />
+	               <path fill="currentColor" d="M33.48 9.29a1 1 0 0 0-1 0c-3.37 2-5.91 5.81-6.9 7.45L24.85 18l-1 1.62c-1.76 2.49-5.1 6.36-8.79 6.36c-4.65 0-8.75-6.15-9.84-7.94c1.09-1.79 5.18-7.94 9.84-7.94c3.54 0 6.77 3.58 8.58 6.07l.28-.48s.36-.51.93-1.25c-2.13-2.8-5.67-6.38-9.85-6.38c-6.59 0-11.67 9.07-11.88 9.46l-.23.48l.27.48c.21.39 5.29 9.46 11.88 9.46c5.06 0 9.22-5.34 11-8C26 20 27.18 18 27.18 18l.07-.11a18 18 0 0 1 1.88-2.75a20.3 20.3 0 0 1 2.86-3v11.74a21 21 0 0 1-3.61-4l-.16.26l-1 1.59a18.7 18.7 0 0 0 5.21 4.95a1 1 0 0 0 .5.14a1.1 1.1 0 0 0 .5-.13a1 1 0 0 0 .5-.87V10.16a1 1 0 0 0-.45-.87" class="clr-i-outline clr-i-outline-path-2" />
+	              <path fill="none" d="M0 0h36v36H0z" />
+                   </svg>
+
+                </span>
+                
+                <p data-category="seafood">Seafood</p>
+            </div>
+             
+            <div class="categories_content_block">
+                <span data-category="chicken" class="iconify">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
+	              <path d="M0 0h32v32H0z" fill="none" />
+                   	<g fill="currentColor">
+		           <path d="M15.42 16.25a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0" />
+		            <path d="M21.19 2c3.336.077 4.97 4.034 2.87 6.502a10.35 10.35 0 0 1 3.65 6.085l2.646 11.865c.057.258.081.52.093.748l.001.025v.025a3.748 3.748 0 0 1-6.41 2.643A3.76 3.76 0 0 1 21.38 31a3.74 3.74 0 0 1-2.66-1.107A3.76 3.76 0 0 1 16.06 31a3.74 3.74 0 0 1-2.66-1.108A3.73 3.73 0 0 1 10.71 31c-1.894-.013-3.408-1.44-3.678-3.228a1.84 1.84 0 0 1-.891.228c-1.317 0-2.206-1.34-1.71-2.564l.89-2.126c.113-.268.286-.499.5-.677c-1.13-.302-2.228-.846-3.191-1.818c-.506-.507-.678-1.094-.603-1.691c.05-.395.221-.805.334-1.075l.05-.122l.016-.04l.02-.037c.627-1.244 1.384-2.247 2.327-2.983a6.56 6.56 0 0 1 2.716-1.25q.03-.095.063-.19A3.84 3.84 0 0 1 7 11.61a3.88 3.88 0 0 1 2.76-3.89c.33-.1.55-.4.55-.74v-.01c0-2.14 1.73-3.87 3.87-3.87c.56 0 1.09.12 1.57.33c.76.34 1.66.21 2.3-.33a4.72 4.72 0 0 1 3-1.1zM6.99 19.5H4.146c.806.772 1.757 1.156 2.844 1.343zm0-1v-1.64q0-.515.048-1.019a4.4 4.4 0 0 0-1.033.602c-.599.468-1.144 1.133-1.642 2.057zm18.758-3.523a8.34 8.34 0 0 0-8.574-6.768h-.001c-4.58.197-8.183 4.042-8.183 8.651V27.2c0 .995.79 1.794 1.737 1.8h.004a1.76 1.76 0 0 0 1.453-.758l.002-.003c.587-.82 1.836-.86 2.435.01c.324.458.846.751 1.439.751a1.77 1.77 0 0 0 1.442-.756l.004-.005c.586-.82 1.836-.86 2.435.01c.324.458.846.751 1.439.751a1.77 1.77 0 0 0 1.442-.756l.004-.005c.586-.82 1.836-.86 2.435.01c.324.458.846.751 1.439.751c.96 0 1.737-.77 1.75-1.727a2.5 2.5 0 0 0-.046-.385l-2.653-11.895z" />
+	                </g>
+                    </svg>
+
+
+                </span>
+                <p data-category="chicken">Chicken</p>
+            </div>
+            <div class="categories_content_block">
+                <span data-category="vegetarian" class="iconify">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+	<path d="M0 0h16v16H0z" fill="none" />
+	<path fill="currentColor" d="M1.4 1.7c.216.289.65.84 1.725 1.274c1.093.44 2.884.774 5.834.528l.37-.023c1.823-.06 3.117.598 3.956 1.579C14.16 6.082 14.5 7.41 14.5 8.5c0 .58-.032 1.285-.229 1.997q.198.248.382.54c.756 1.2 1.19 2.563 1.348 3.966a1 1 0 0 1-1.98.198c-.13-.97-.397-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435c-1.125-.887-1.89-2.095-2.391-3.383C.16 6.62.16 3.646.509 1.902L.73.806zm-.05 1.39c-.146 1.609-.008 3.809.74 5.728c.457 1.17 1.13 2.213 2.079 2.961c.942.744 2.185 1.22 3.83 1.221c2.588 0 3.91-.66 4.609-1.445c-1.789-2.46-4.121-1.213-6.342-2.68c-.74-.488-1.735-1.323-1.844-2.308c-.023-.214.237-.274.38-.112c1.4 1.6 3.573 1.757 5.59 2.045c1.227.215 2.21.526 3.033 1.158c.058-.39.075-.782.075-1.158c0-.91-.288-1.988-.975-2.792c-.626-.732-1.622-1.281-3.167-1.229l-.316.02c-3.05.253-5.01-.08-6.291-.598a5.3 5.3 0 0 1-1.4-.811" />
+</svg>
+
+
+                </span>
+                <p data-category="vegetarian">Vegetarian</p>
+            </div>
+            <div class="categories_content_block">
+                <span data-category="pastas" class="iconify">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path fill="currentColor" d="M3 12h18c0 4 -4 7 -9 7s-9 -3 -9 -7" opacity=".2" stroke="none" />
+		<path d="M3 12h18c0 4 -4 7 -9 7s-9 -3 -9 -7" />
+		<path d="M7 12a5 5 0 0 1 10 0" />
+		<path d="M10 12a2 2 0 0 1 4 0" />
+	</g>
+</svg>
+
+
+                </span>
+                <p data-category="pastas">Pastas</p>
+            </div>
+            <div class="categories_content_block">
+                <span data-category="snacks" class="iconify">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-width="1.5">
+		<path stroke-linecap="round" stroke-linejoin="round" d="M2.992 17c0 .932 0 1.398.152 1.765a2 2 0 0 0 1.083 1.083C4.594 20 5.06 20 5.992 20h12c.932 0 1.398 0 1.765-.152a2 2 0 0 0 1.083-1.083c.152-.367.152-.833.152-1.765" />
+		<path stroke-linecap="round" d="m3.02 13l-.42.656c-.29.453-.436.679-.491.818c-.428 1.069.378 2.23 1.488 2.147c.145-.01.398-.082.902-.225c.139-.04.208-.06.277-.075a2.9 2.9 0 0 1 1.461.042c.068.02.136.044.272.09l.483.168c.628.218.942.326 1.265.362q.25.027.499.011c.324-.02.642-.115 1.279-.304l.314-.094c.816-.242 1.224-.363 1.643-.363s.827.121 1.643.363l.314.094c.637.189.955.283 1.28.304q.25.016.498-.011c.323-.036.637-.144 1.265-.362l.483-.167c.136-.047.204-.071.272-.09c.477-.14.979-.155 1.462-.043c.068.016.138.035.276.075c.505.143.757.214.902.225c1.11.084 1.916-1.078 1.489-2.147c-.056-.14-.201-.366-.491-.818L20.964 13" />
+		<path stroke-linejoin="round" d="M20.992 11.103c0-.638 0-.956-.086-1.257s-.252-.566-.586-1.096l-1.482-2.36c-.883-1.404-1.324-2.106-2.017-2.324c-.693-.219-1.425.114-2.887.778L5.417 8.717c-1.176.534-1.764.801-2.094 1.332c-.33.532-.33 1.21-.33 2.567V13h18z" />
+		<path stroke-linecap="round" d="M3.992 9.5h16.5" />
+	</g>
+</svg>
+
+
+                </span>
+                <p data-category="snacks">Snacks</p>
+            </div>
+            <div class="categories_content_block">
+                <span data-category="BEEF/PORK" class="iconify">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+	<path d="M0 0h48v48H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m12.192 33.146l-2.838 2.837a2.26 2.26 0 1 0-1.147 3.81a2.26 2.26 0 1 0 3.81-1.147l2.838-2.837m-2.663-2.663a7.6 7.6 0 0 0 1.874.788c.174.65.44 1.28.789 1.875m20.953-20.955l2.838-2.837a2.259 2.259 0 1 0 1.147-3.81a2.26 2.26 0 1 0-3.812 1.147l-2.836 2.838" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M33.146 12.192a7.5 7.5 0 0 0-1.158-1.507a7.53 7.53 0 0 0-10.65 0a7.5 7.5 0 0 0-1.598 2.369c-.307.718-.384 1.494-.575 2.24c-.462 1.805-1.983 3.394-3.781 3.867c-.834.22-1.706.294-2.504.66a7.5 7.5 0 0 0-2.194 1.516a7.53 7.53 0 0 0 0 10.652c.46.46.969.842 1.506 1.157m23.616-18.292a7.6 7.6 0 0 0-1.875-.788a7.6 7.6 0 0 0-.787-1.874m2.662 2.662a7.5 7.5 0 0 1 1.507 1.157a7.53 7.53 0 0 1-.002 10.652a7.5 7.5 0 0 1-2.368 1.597c-.718.308-1.494.384-2.24.575c-1.803.462-3.393 1.982-3.866 3.781c-.22.834-.294 1.707-.66 2.505a7.5 7.5 0 0 1-1.516 2.193a7.53 7.53 0 0 1-10.652 0a7.5 7.5 0 0 1-1.157-1.505" />
+</svg>
+
+
+                </span>
+                <p data-category="BEEF/PORK">BEEF/PORK</p>
+            </div>
+            <div class="categories_content_block">
+                <span data-category="dessert" class="iconify">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+		<circle cx="12" cy="6" r="2" />
+		<path d="M12 18c-4.97 0-9-1.79-9-4c0-.729.438-1.412 1.204-2m13.75 5c-.856.335-1.856.6-2.954.772" />
+		<path d="M20.93 17.5q.07.245.07.5c0 2.21-4.03 4-9 4s-9-1.79-9-4c0-.729.438-1.412 1.204-2" />
+		<path d="M14 6.099C18.008 6.503 21 9 21 12v4.5a1.5 1.5 0 0 1-3 0V15a1.5 1.5 0 0 0-3 0v2.5a1.5 1.5 0 0 1-3 0v-1c0-.505 0-.758-.033-.935c-.145-.796-.59-1.303-1.361-1.548c-.173-.054-.482-.094-1.1-.173C5.748 13.364 3 11.824 3 10c0-1.904 2.992-3.497 7-3.901M13 2c-.333.167-1 .8-1 2" />
+	</g>
+</svg>
+
+
+                </span>
+                <p data-category="dessert">Dessert</p>
+            </div>
+
+         </div>
+     
+        </section>
+
+     <!-- image section  -->
+       <section class="image_section">
+
+        <div class="image_section_controller">
+         <div class="image_section_box">
+            <h4>In the Kitchen</h4>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         </div>
+
+       </div>
+
+         
+       </section>
+     <!-- content area (in the kitchen)-->
+       <section class="content_area">
+        <div class="todays_recipes_headline">In the Kitchen</div>
+         <div class="content_area_boxes">
+            <div class="content_area_boxes_first">
+            <div class="content_area_boxes_first_text">
+                <h6>In the kitchen</h6>
+                <h4>How to plate as a pro</h4>
+                <p>Big brawl in kitchen. Who takes it? Winner gets to take home the desserts! Losers can wave goodbye!</p>
+                  <button>
+                    <a href="">Plating</a>
+                  </button>
+            </div>
+         </div>
+          
+         <div class="content_area_boxes_second">
+             <img src="https://picsum.photos/600/350" alt="">
+         </div>
+          
+         <div class="content_area_boxes_third">
+             <img src="https://picsum.photos/600/350" alt="">
+         </div>
+                
+            <div class="content_area_boxes_fourth">
+                <div class="content_area_boxes_fourth_text">
+                    <h6>In the kitchen</h6>
+                    <h4>Recipes are for...</h4>
+                    <p>Big brawl in kitchen. Who takes it? Winner gets to take home the desserts! Losers can wave goodbye! esf</p>
+                    <button>
+                        <a href="">Recipe</a>
+                    </button>
+                </div>
+            </div>
+                  
+            <div class="content_area_boxes_fifth">
+                <div class="content_area_boxes_fifth_text">
+                    <h6>In the kitchen</h6>
+                    <h4>Meats - how to baste</h4>
+                    <p>Big brawl in kitchen. Who takes it? Winner gets to take home the desserts! Very scrumptious!</p>
+                    <button>
+                        <a href="">Guides</a>
+                    </button>
+                </div>
+                
+               
+                  
+
+            </div>
+        
+                   <div class="content_area_boxes_sixth">
+                    <img src="https://picsum.photos/600/350" alt="">
+                   </div>
+
+        </div>
+       </section>
+     <!-- Footer -->
+      <section class="footer">
+        <div class="social">
+          <a href="#">YouTube</a>
+           <a href="#">Instagram</a>
+           <a href="#">Facebook</a>
+        </div>
+
+        <div class="nav">
+           <a href="/">Home</a>
+           <a href="/">Recipe</a>
+           <a href="/">About</a>
+        </div>
+
+        <div class="info">
+          <a href="https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c">https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c</a>
+         <a href="https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK">https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK</a>
+          <p>Etsy is powered by 100% renewable electricity.</p>
+        </div>
+
+         
+       </div>
+      </section>
+
+
+
+  </div>  
+
+  <script src="js/app.js"></script>
+</body>
+</html>
