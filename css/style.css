@@ -873,7 +873,7 @@ gap: var(--grid-gap);
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
-    padding: 80px 95px;
+    padding: 160px 80px 95px;
     color: #fff;
     font-family: "Roboto", sans-serif;
 }
@@ -1134,7 +1134,7 @@ gap: var(--grid-gap);
 
 /*SEARCH PAGE*/
 .search {
-    padding: 60px 95px 120px;
+    padding: 160px 95px 120px;
     color: #fff;
     font-family: "Roboto", sans-serif;
 }
@@ -1352,12 +1352,12 @@ gap: var(--grid-gap);
 }
 
 
-/*footer*/
+/*searchfooter*/
 
 .footer {
   display: flex;
   gap: 4rem;
-  padding: 2rem 3rem;
+  padding: 4rem 3rem;
   background: var(--primary-color);
   color: var(--color-dark) ;
   font-size: 14px;
